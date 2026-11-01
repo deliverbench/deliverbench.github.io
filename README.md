@@ -2,7 +2,7 @@
 
 A static research showcase for DeliverBench: benchmark overview, results, delivery cases, construction, evaluation, and project coverage.
 
-**Website:** https://kkyrios.github.io/deliverbench/
+**Website:** https://deliverbench.github.io/
 
 **Affiliations:** Humanlaya Data · [Theseus Lab](https://theseus-labs-rsi.github.io/)
 
@@ -34,11 +34,11 @@ Figures open directly when clicked; text disclosures remain separate. The GLM an
 
 The numerical checks recompute leaderboard means from the project matrix and checkpoint pass rates from the 150-subtask denominator. They also check local links, the publication boundary, and P02 task coverage, dependency acyclicity, feedback sources and final-file mapping. Browser checks are still needed after visual or interaction changes.
 
-## Deployment and future migration
+## Deployment
 
 GitHub Actions builds, verifies, and deploys `dist/` to GitHub Pages on pushes to `main`. Enable **Settings → Pages → Source: GitHub Actions** for the repository.
 
-To move to an organization repository, update `site.json`, this README's website link, and the repository's homepage setting; enable Pages in the destination. Page assets use relative paths, so they work under a project subpath or a root domain. No backend, secrets, or account system is required.
+The organization homepage is published from `deliverbench/deliverbench.github.io` at `https://deliverbench.github.io/`. `site.json` controls canonical and share-image URLs. Page assets use relative paths. No backend, secrets, or account system is required.
 
 ## Publication scope and attribution
 
