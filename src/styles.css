@@ -285,10 +285,21 @@ button {
 }
 .hero-actions {
   display:grid;
-  grid-template-columns:repeat(4,minmax(0,1fr));
+  grid-template-columns:repeat(5,minmax(0,1fr));
   gap:12px;
-  max-width:760px;
+  max-width:980px;
   margin:29px auto 0
+}
+@media(max-width:1000px) {
+  .hero-actions {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    max-width:420px
+  }
+  .hero-actions .button:last-child {
+    grid-column:1 / -1;
+    justify-self:center;
+    width:calc(50% - 6px)
+  }
 }
 .button {
   display:inline-flex;
