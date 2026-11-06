@@ -1,0 +1,16 @@
+{
+  "kimi-official.png": {
+    "source_page": "https://www.kimi.com/en/resources/kimi-brand",
+    "source_archive_member": "KIMI-logos/Logomark/SVG/Logomark_Dark.svg",
+    "transformation": "Keep both official symbol paths and colors; remove rectangular white backplate at user request.",
+    "sha256": "10837bb55677e6ba25351155b940e99009514b040e5f94b038252f55aebf3483",
+    "preparation": "Transparent margins cropped; original symbol colors preserved; centered on a 512 x 512 transparent PNG."
+  },
+  "zai-official.png": {
+    "source_page": "https://www.zhipuai.cn/en",
+    "source_url": "https://www.zhipuai.cn/logo-en.svg",
+    "transformation": "Take first three official Z symbol paths from corporate wordmark; preserve paths and #060606 fill; omit .AI text.",
+    "sha256": "60e809f8af387bcba48ed0af103f247d1ea40272a3b7f7e03e7bee51c3d8589e",
+    "preparation": "Transparent margins cropped; original symbol colors preserved; centered on a 512 x 512 transparent PNG."
+  }
+}
